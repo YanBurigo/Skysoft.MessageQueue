@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skysoft.MessageQueue.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skysoft.MessageQueue.ObjectMother", "Skysoft.MessageQueue.ObjectMother\Skysoft.MessageQueue.ObjectMother.csproj", "{A63B0571-8351-41F8-891C-488B1A11E60B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skysoft.MessageQueue.RabbitMQ", "Skysoft.MessageQueue.RabbitMQ\Skysoft.MessageQueue.RabbitMQ.csproj", "{5B7F493C-B557-4BDF-A02E-3B4EF730F26F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Tests Layer", "2 - Tests Layer", "{A8397257-C767-4E01-987D-1DA12A9F9A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Object Mothers layer", "3 - Object Mothers layer", "{3AC1C825-EBD0-448E-AD81-119B501A7395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application Layer", "1 - Application Layer", "{ADB4507E-A98B-430F-BD74-3DDA955DA0F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +35,19 @@ Global
 		{A63B0571-8351-41F8-891C-488B1A11E60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A63B0571-8351-41F8-891C-488B1A11E60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A63B0571-8351-41F8-891C-488B1A11E60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7F493C-B557-4BDF-A02E-3B4EF730F26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7F493C-B557-4BDF-A02E-3B4EF730F26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7F493C-B557-4BDF-A02E-3B4EF730F26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7F493C-B557-4BDF-A02E-3B4EF730F26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE5B1700-2625-48F8-A34D-82B255047F3A} = {ADB4507E-A98B-430F-BD74-3DDA955DA0F0}
+		{13C6330A-9A89-4CE4-A182-0E60ECC0D6A6} = {A8397257-C767-4E01-987D-1DA12A9F9A0A}
+		{A63B0571-8351-41F8-891C-488B1A11E60B} = {3AC1C825-EBD0-448E-AD81-119B501A7395}
+		{5B7F493C-B557-4BDF-A02E-3B4EF730F26F} = {ADB4507E-A98B-430F-BD74-3DDA955DA0F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C16582AE-CD3C-4908-8850-BDB14DB82AAE}
